@@ -3,7 +3,7 @@ import { Person } from "./validations";
 import { PersonArray } from "@/store/personSlice";
 import { toast } from "react-toastify";
 const axiosInstance = axios.create({
-  baseURL: "http://plankton-app-9curw.ondigitalocean.app",
+  baseURL: "https://plankton-app-9curw.ondigitalocean.app",
   headers: {
     "Content-Type": "application/json",
   },
